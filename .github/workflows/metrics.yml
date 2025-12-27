@@ -24,7 +24,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot,
-            vue, jupyter notebook, java, javascript, typescript, c++, python, c, shell
+            vue, jupyter notebook, java, c++, python, c, shell
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_colors: "github"
