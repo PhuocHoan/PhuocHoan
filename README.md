@@ -40,5 +40,5 @@ I don't just build APIs; I engineer scalable systems. My philosophy is to unders
 ### 🔥 GitHub Stats
 
 <div align="center">
-  <img src="https://github.com/PhuocHoan/PhuocHoan/blob/main/github-metrics.svg" alt="Hoan's Generated Metrics" width="100%"/>
+  <img src="https://raw.githubusercontent.com/PhuocHoan/PhuocHoan/main/github-metrics.svg" alt="Hoan's GitHub Metrics" width="100%"/>
 </div>
