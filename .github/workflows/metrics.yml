@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # Chạy tự động vào 00:00 mỗi ngày
   schedule: [{cron: "0 0 * * *"}]
-  # Cho phép chạy thủ công từ tab Actions
   workflow_dispatch:
-  # Chạy mỗi khi push vào nhánh main/master
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -14,35 +11,23 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Token và user
           token: ${{ secrets.METRICS_TOKEN }}
           user: PhuocHoan
-          
-          # Cấu hình file output
-          filename: github-metrics.svg
-          committer_message: "chore: update metrics [skip ci]"
-
-          # Giao diện & Cấu trúc
           template: classic
-          base: header, activity, community, repositories, metadata
+          filename: github-metrics.svg
+          base: header, repositories, metadata # BỎ activity, community để tránh lỗi
           config_timezone: Asia/Ho_Chi_Minh
-          config_display: large
           
-          # PLUGIN: Languages (Quan trọng nhất)
+          # Plugin: Languages (Cấu hình ẩn Java, tôn vinh C#)
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot,
-            vue, jupyter notebook, java
-            # Đã ignore Java để profile thuần .NET/C#
+            vue, jupyter notebook, java, javascript, typescript
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_colors: "github"
           plugin_languages_details: bytes-size, percentage
           
-          # PLUGIN: IsoCalendar (Biểu đồ commit dạng lịch 3D)
+          # Plugin: 3D Calendar (Giữ lại cái này vì rất đẹp)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          
-          # PLUGIN: Achievements (Thành tựu)
-          plugin_achievements: yes
-          plugin_achievements_display: compact
