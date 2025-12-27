@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2094F3&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Ho+Phuoc+Hoan;Java+Backend+Engineer;Performance+Obsessed" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=512BD4&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Ho+Phuoc+Hoan;C%23+Backend+Engineer;.NET+10+Enthusiast;Performance+Obsessed" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -15,13 +15,13 @@
 
 ### ☕ About Me
 
-I am a final-year **Software Engineering** student at **VNU-HCMUS**, obsessed with **High-Performance Java Engineering** and **Distributed Systems**.
+I am a final-year **Software Engineering** student at **VNU-HCMUS**, obsessed with **High-Performance .NET Engineering** and **Distributed Systems**.
 
-I don't just build APIs; I engineer scalable systems. My philosophy is to understand the magic *under the hood*—from **JVM Garbage Collection** strategies to **Database Isolation Levels** and **OS-level I/O models**. I strive to write code that is clean, thread-safe, and optimized for high throughput.
+I don't just build APIs; I engineer scalable systems. My philosophy is to understand the magic *under the hood*—from **CLR Garbage Collection** strategies to **Async State Machines** and **Zero-Allocation Memory Management** (`Span<T>`, `Memory<T>`). I strive to write code that is clean, thread-safe, and optimized for high throughput using **.NET 10**.
 
-* 🔭 **Current Focus:** Deep-diving into **Spring Boot 4 internals**, **Microservices Patterns** (Saga, CQRS), and **Event-Driven Architecture**.
-* ☕ **Java Stack:** Modern Java (25+).
-* 🧠 **System Interests:** Data Structures, Algorithm Optimization, **ACID properties**, and **Clean Architecture** (DDD/Hexagonal).
+* 🔭 **Current Focus:** Deep-diving into **ASP.NET Core internals**, **Cloud-Native** development with **.NET Aspire**, and **Native AOT** compilation.
+* 💻 **Tech Stack:** Modern C# 14 & .NET 10 (Bleeding Edge).
+* 🧠 **System Interests:** High-performance I/O, **Vertical Slice Architecture**, **DDD**, and Distributed Patterns (Saga, CQRS).
 
 ---
 
@@ -29,9 +29,9 @@ I don't just build APIs; I engineer scalable systems. My philosophy is to unders
 
 <div align="center">
 
-| **Java Ecosystem (Primary)** | **Database & Storage** | **DevOps & Tools** |
+| **.NET Ecosystem (Core)** | **Database & Storage** | **DevOps & Infrastructure** |
 | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/> <br> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"/> <br> <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate"/> | <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres"/> <br> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/> <br> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/> | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/> <br> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/> <br> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/> |
+| <img src="https://img.shields.io/badge/C%23_14-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/> <br> <img src="https://img.shields.io/badge/.NET_10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/> <br> <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core"/> <br> <img src="https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=nuget&logoColor=white" alt="EF Core"/> | <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres"/> <br> <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server"/> <br> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/> | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/> <br> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux"/> <br> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/> |
 
 </div>
 
@@ -40,6 +40,5 @@ I don't just build APIs; I engineer scalable systems. My philosophy is to unders
 ### 🔥 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PhuocHoan&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&hide_rank=false" alt="Hoan's GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhuocHoan&layout=compact&theme=tokyonight&hide_border=true&hide=html%2Ccss%2Cjupyter%20notebook%2Cc%2B%2B%2Cpython%2Cmakefile%2Cc%2Ccmake%2Cdockerfile" alt="Top Languages" height="160"/>
+  <img src="https://github.com/PhuocHoan/PhuocHoan/blob/main/github-metrics.svg" alt="Hoan's Generated Metrics" width="100%"/>
 </div>
